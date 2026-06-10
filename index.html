@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CallMind — Centro de Contacto Inteligente</title>
+    <style>
+        :root{--primary:#0f172a;--secondary:#3b82f6;--accent:#10b981;--bg:#f1f5f9;--text:#1e293b}
+        *{box-sizing:border-box;font-family:'Inter',system-ui,-apple-system,sans-serif;margin:0;padding:0}
+        body{background:var(--bg);color:var(--text);line-height:1.6}
+        .wrap{max-width:1100px;margin:0 auto;padding:40px 20px}
+        .hero{text-align:center;padding:80px 20px 60px}
+        .hero h1{font-size:3rem;color:var(--primary);margin-bottom:16px}
+        .hero h1 span{color:var(--secondary)}
+        .hero p{font-size:1.2rem;color:#64748b;max-width:700px;margin:0 auto}
+        .btn{display:inline-block;padding:14px 32px;border-radius:12px;font-weight:600;font-size:1rem;
+             text-decoration:none;margin-top:24px}
+        .btn-primary{background:var(--secondary);color:#fff}
+        .btn-outline{background:transparent;color:var(--secondary);border:2px solid var(--secondary);margin-left:12px}
+        .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin:40px 0}
+        .card{background:#fff;border-radius:18px;padding:28px;box-shadow:0 4px 20px rgba(0,0,0,.04);border:1px solid #e2e8f0}
+        .card h3{font-size:1.3rem;margin-bottom:8px}
+        .card p{color:#64748b;font-size:.95rem}
+        .footer{text-align:center;color:#94a3b8;font-size:.85rem;padding:40px 0;border-top:1px solid #e2e8f0;margin-top:40px}
+        .footer a{color:var(--secondary);text-decoration:none}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="hero">
+            <h1><span>CallMind</span></h1>
+            <p>Centro de contacto inteligente impulsado por IA. Atención multicanal, análisis en tiempo real y automatización para tu negocio.</p>
+            <div>
+                <a href="/pricing" class="btn btn-primary">Ver Planes</a>
+                <a href="/login" class="btn btn-outline">Iniciar Sesión</a>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>📞 Gestión Multicanal</h3>
+                <p>WhatsApp, llamadas de voz, chat web y redes sociales desde una sola plataforma.</p>
+            </div>
+            <div class="card">
+                <h3>🤖 IA Conversacional</h3>
+                <p>Asistente inteligente que aprende de cada interacción y mejora la atención al cliente.</p>
+            </div>
+            <div class="card">
+                <h3>📊 Análisis en Tiempo Real</h3>
+                <p>Métricas, reportes y dashboards para optimizar la operación de tu centro de contacto.</p>
+            </div>
+            <div class="card">
+                <h3>🔗 Integraciones</h3>
+                <p>Conectá con tus herramientas favoritas: CRMs, sistemas de ticketing y más.</p>
+            </div>
+            <div class="card">
+                <h3>🔒 Seguridad</h3>
+                <p>Encriptación de extremo a extremo, cumplimiento GDPR y datos protegidos.</p>
+            </div>
+            <div class="card">
+                <h3>⚡ Escalable</h3>
+                <p>Desde 2 canales hasta 50+ canales simultáneos. Crece con tu negocio.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 CallMind. Todos los derechos reservados.</p>
+            <p><a href="/terms">Términos del Servicio</a> · <a href="/privacy">Política de Privacidad</a> · <a href="/refund">Política de Reembolso</a> · <a href="/pricing">Precios</a></p>
+        </div>
+    </div>
+</body>
+</html>
